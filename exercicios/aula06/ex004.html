@@ -12,13 +12,15 @@
 
         var salario = window.prompt('Qual é o seu salário?')
 
-        document.write(`Olá, ${nome}! Seu nome nome tem ${nome.length} letras!`)
+        document.write(`Olá, ${nome}! Seu nome nome tem ${nome.length} letras! `)
 
         salario_euro = salario / 5.78
 
-        document.write(`Seu salário em euros é de: ${salario_euro.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})}`)
+        salario_dolar = salario / 5.35
 
-        
+        document.write(`Seu salário em euros é de: ${salario_euro.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})} `)
+
+        document.write(`Seu salário e, dólares é de: ${salario_dolar.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})}`)
     </script>
 </body>
 </html>
