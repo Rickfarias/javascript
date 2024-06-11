@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>De qual país você é?</h1>
+    Seu país é: <input type="text" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="pais()">
+    <p id="res"></p>
+
+    <script>
+        function pais() {
+
+            var pais = document.getElementById('pais')
+            var seu_pais = document.getElementById('res')
+            var vel = String(pais.value)
+
+            if (pais.value == 'Brasil') {
+                seu_pais.innerHTML += `+55 esse é o DDI (código de discagem internacional) de: ${vel}`
+            } 
+        }
+    </script>
+</body>
+</html> 
