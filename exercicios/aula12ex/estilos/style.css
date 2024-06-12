@@ -6,12 +6,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html, body {
+body {
     background-color: rgb(201, 230, 255);
 }
 
 header {
     text-align: center;
+    padding: 20px;
 }
 
 main {
@@ -21,10 +22,27 @@ main {
     width: 500px;
     margin: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+
+}
+
+main > section {
+    text-align: center;
+    padding: 10px;
+}
+
+main > section#msg{
+    font-size: 1.25em;
+}
+
+main > section#imagem > img.foto-m{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 footer {
     text-align: center;
     font-style: italic;
+    padding: 10px;
 }
 
