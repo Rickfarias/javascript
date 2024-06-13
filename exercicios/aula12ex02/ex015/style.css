@@ -34,8 +34,16 @@ main > section {
 main > section#res {
     border-radius: 0px 0px 10px 10px;
     width: 350px;
-    height: 50px;
+    height: 250px;
+}
 
+main >  section#res img {
+    display: block;
+    height: 200px;
+    width: 230px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 55px;
 }
 
 main > section > p {
