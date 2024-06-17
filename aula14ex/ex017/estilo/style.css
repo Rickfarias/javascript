@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(71, 109, 142);
+}
+
+header > h1 {
+    margin-top: 160px;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+
+main > section {
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > section > input {
+    display: block;
+}
+main > section > input#contar {
+    margin: 20px 10px 20px 0px;
+    padding: 5px;
+}
+
+footer {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
