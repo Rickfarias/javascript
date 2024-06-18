@@ -8,22 +8,18 @@
 </head>
 <body>
     <header>
-        <h1>Vamos contar!</h1>
+        <h1>Tabuada</h1>
     </header>
     <main>
         <section>
-            <label for="inicio">Inicio: </label>
-            <input type="Number" name="inicio" id="inicio">
+            <label for="numero">Número: </label>
+            <input type="Number" name="numero" id="numero">
 
-            <label for="fim">Fim: </label>
-            <input type="Number" name="fim" id="fim">
-            
-            <label for="passo">Passo: </label>
-            <input type="Number" name="passo" id="passo">
+            <input type="submit" value="Gerar tabuada" id="tabuada" onclick="tabuada()">
 
-            <input type="submit" value="Contar" id="contar" onclick="">
-
-            <p id="res">Preparando a contagem... </p>
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
         </section>
         <footer>&copy; Rick Farias</footer>
     </main>
