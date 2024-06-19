@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Analisador de Números</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
@@ -17,11 +17,12 @@
                 <input type="number" name="numero" id="numero">
                 
                 <input type="submit" value="Adicionar" id="adc" onclick="adicionar()">
+                <select name="select" id="seltab" size="10"></select>
+                <input type="submit" value="Finalizar" id="final" onclick="finalizar()">
             </p>
         </section>
-        <section>
-            <select name="select" id="seltab" size="10"></select>
-            <input type="submit" value="Finalizar" id="final">
+        <section id="res">
+
         </section>
     </main>
     <footer>

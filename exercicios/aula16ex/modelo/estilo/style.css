@@ -18,7 +18,6 @@ main {
     background-color: aliceblue;
     border-radius: 10px;
     border: 1px solid black;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.362);
 
     position: absolute;
     top: 50%;
@@ -30,9 +29,22 @@ main > section > p {
     padding: 10px;
 }
 
-main > section > input#final {
+main > section > p > input#final {
     display: block;
+    margin: 15px;
 }
+
+select#seltab {
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+main > section#res {
+    background-color: aliceblue;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px 1px 0px 0px solid black;
+} 
 
 footer {
     text-align: center;
